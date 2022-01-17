@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="yelta vakili">
+    <meta name="keywords" content="HTML . css , javascript .tictactoe">
+    <meta name="description" content="Game tic tac toe">
+    <title>tic tak toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td><button onclick=" show_index(0,0)" class="cell"></button></td>
+        <td><button onclick=" show_index(0,1)" class="cell"></button></td>
+        <td><button onclick=" show_index(0,2)" class="cell"></button></td>
+      </tr>
+      <tr>
+        <td><button onclick=" show_index(1,0)" class="cell"></button></td>
+        <td><button onclick=" show_index(1,1)" class="cell"></button></td>
+        <td><button onclick=" show_index(1,2)" class="cell"></button></td>
+      </tr>
+      <tr>
+        <td><button onclick=" show_index(2,0)" class="cell"></button></td>
+        <td><button onclick=" show_index(2,1)" class="cell"></button></td>
+        <td><button onclick=" show_index(2,2)" class="cell"></button></td>
+      </tr>
+    </table>
+    <div class="para">
+      <p>x scores: <b id="score-x">0</b></p>
+      <p>o scores: <b id="score-o">0</b></p>
+      <p>Draw: <b id="score-drow">0</b></p>
+    </div>
+    <div class="mode">
+      <input id="mode1" type="radio" name="mode" />
+      <label for="mode1">player1 vs player2</label>
+      <input id="mode2" type="radio" name="mode" />
+      <label for="mode2">player vs cpu</label>
+    </div>
+    <h4 id="round"></h4>
+    <button onclick="now_game()" id="now">now game</button>
+    <script src="script.js"></script>
+  </body>
+</html>

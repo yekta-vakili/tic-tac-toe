@@ -1,0 +1,68 @@
+body {
+  background-image: url(55.jpg);
+}
+table {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.cell {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  font-size: x-large;
+  border: none;
+  opacity: 0.8;
+  box-shadow: 3px 2px 6px rgb(141, 141, 141);
+}
+.x {
+  background-color: palevioletred;
+  color: black;
+}
+.o {
+  background-color: lightsalmon;
+  color: black;
+}
+.para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 58rem;
+  top: -19rem;
+  width: 100px;
+  border-radius: 20px;
+  border: 3px #dc143c inset;
+  background: linear-gradient(#e9967a, #fafad2, #ffa07a);
+}
+#round {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -27rem;
+  background: -webkit-linear-gradient(#b22222, #ffefd5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: x-large;
+}
+#now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 59rem;
+    top: -15rem;
+    border: 3px #dc143c inset;
+    background: linear-gradient(#e9967a, #fafad2, #ffa07a);
+}
+#now:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.mode{
+    display: flex;
+    justify-content: center;
+    margin-top: -8rem;
+
+}
